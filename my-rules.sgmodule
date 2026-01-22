@@ -1,0 +1,18 @@
+#!name=PersonalRulesConfig
+#!desc=在 Dler 配置基础上添加的自定义规则和策略组
+
+[Proxy Group]
+# 新增策略组 - 注意：这里只能引用主配置中已有的节点/策略组名称
+# 例如 Dler 配置中有"香港"、"日本"等策略组，你可以这样引用
+GroupForAISuite  = select, Proxy, 美国 IEPL 01, 🇺🇸 美国 IEPL 02, 🇺🇸 美国 IEPL 03, 🇺🇸 美国 IEPL 04, 🇺🇸 美国 IEPL 05 [Premium], 🇺🇸 美国 IEPL 06 [Premium], 🇺🇸 美国 IEPL 07 [Premium], 🇺🇸 美国 IEPL 08 [Premium]
+[Rule]
+# 规则会插入到最前面，优先级最高
+# 让特定域名走指定策略组
+DOMAIN-SUFFIX,google.com,GroupForAISuite
+
+# 让特定 App 走指定策略组（Mac 上使用 PROCESS-NAME）
+PROCESS-NAME,Claude,GroupForAISuite
+
+# 也可以使用内置策略
+# DOMAIN-SUFFIX,blocked-site.com,REJECT
+
