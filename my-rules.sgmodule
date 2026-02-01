@@ -5,6 +5,7 @@
 # 规则会插入到最前面，优先级最高
 # 让特定域名走指定策略组
 DOMAIN-SUFFIX,google.com,AI Suite
+DOMAIN-SUFFIX,candy.ai,AI Suite
 
 # 让特定 App 走指定策略组（Mac 上使用 PROCESS-NAME）
 PROCESS-NAME,Claude,AI Suite
