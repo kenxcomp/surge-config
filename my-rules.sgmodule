@@ -6,6 +6,8 @@
 # 让特定域名走指定策略组
 DOMAIN-SUFFIX,google.com,AI Suite
 DOMAIN-SUFFIX,candy.ai,AI Suite
+DOMAIN-SUFFIX,diabrowser.com,AI Suite
+DOMAIN-SUFFIX,thebrowser.company,AI Suite
 
 # 让特定 App 走指定策略组（Mac 上使用 PROCESS-NAME）
 PROCESS-NAME,Claude,AI Suite
