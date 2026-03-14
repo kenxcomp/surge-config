@@ -1,0 +1,33 @@
+
+
+// claude
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude Helper
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,anthropic.com
+
+// google
+DOMAIN-SUFFIX.com
+DOMAIN-SUFFIXapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX.dev
+DOMAIN-SUFFIX,iconify.design
+DOMAIN-SUFFIXusercontent.com
+DOMAIN-SUFFIX,goog
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIXvideo.com
+DOMAIN-SUFFIX,clientstream.launchdarkly.com
+DOMAIN-SUFFIXtagmanager.com
+
+// browserCompany
+DOMAIN-SUFFIX,diabrowser.com
+DOMAIN-SUFFIX,thebrowser.company
+DOMAIN-SUFFIX,arc.net
+DOMAIN-SUFFIX,diabrowser.engineering
+
+//grok
+DOMAIN-SUFFIX,groq.com
