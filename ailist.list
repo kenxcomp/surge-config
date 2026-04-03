@@ -31,3 +31,8 @@ DOMAIN-SUFFIX,diabrowser.engineering
 
 # grok
 DOMAIN-SUFFIX,groq.com
+
+# openai
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,openai
