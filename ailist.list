@@ -7,6 +7,8 @@ DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,api.intellimize.co
+DOMAIN-KEYWORD,anthropic
 
 # google
 DOMAIN-SUFFIX,google.com
