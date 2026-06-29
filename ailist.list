@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,api.intellimize.co
 DOMAIN-KEYWORD,anthropic
+DOMAIN-SUFFIX,datadoghq.com
 
 # google
 # DOMAIN-SUFFIX,google.com
